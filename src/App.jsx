@@ -26,8 +26,7 @@ function App() {
 
   return (
       <main className="bg-dakrBlue">
-        <section className="min-h-screen w-full ">
-          <div className="xl:h-[20rem] h-80"></div>
+        <section className="min-h-screen w-full flex justify-center items-center" >
           <div className="xl:max-w-2xl relative max-w-xs bg-darkGray font-manrope mx-auto rounded-2xl">
             <p className="text-neonGreen xl:pt-14 pt-10 font-[600] xl:text-lg text-center text-xs tracking-[2px] ">
               ADVICE {current.id}#
